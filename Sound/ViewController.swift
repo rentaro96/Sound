@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     
     let pianoSoundPlayer = try!AVAudioPlayer(data:NSDataAsset(name:"pianoSound")!.data)
     
-    let guitarSoundPlayer = try!AVAudioPlayer(data:NSDataAsset(name:"guitarSound")!.data)
+    let guitarSoundPlayer = try!AVAudioPlayer(data:NSDataAsset(name:"guitarSound")!.data) 
     
     override func viewDidLoad() {
         super.viewDidLoad()
